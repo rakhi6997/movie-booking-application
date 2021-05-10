@@ -4,8 +4,15 @@ import './index.css';
 import Header from './common/Header/Header.js';
 import Home from './Screens/Home/Home.js';
 
+
+
+
 ReactDOM.render(
-  <>
-  <Home />
-  </>
-      ,document.getElementById('root'));
+<>
+<Home />
+</>
+    ,document.getElementById('root'));
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
